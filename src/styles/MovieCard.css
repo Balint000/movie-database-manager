@@ -1,0 +1,19 @@
+/* 1. Alapértelmezett állapot (Nagyítás és árnyék nélkül) */
+#card-hover {
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    /* A transition biztosítja a sima animációt a változáskor */
+}
+
+/* 2. HOVER (Egér ráhúzás) állapot */
+#card-hover:hover {
+    /* Enyhe felemelkedő hatás: Növeljük a Z-t */
+    transform: translateY(-5px);
+
+    /* Kiemelkedő árnyék */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+    /* Ha szeretnéd, hogy a kurzor "kattintható" legyen */
+    cursor: pointer;
+}

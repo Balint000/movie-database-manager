@@ -1,0 +1,16 @@
+body {
+    padding-top: 60px;
+}
+
+@media (max-width: 1000px) {
+    body {
+        padding-top: 120px;
+    }
+}
+
+#navbar {
+    padding: 15px;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}

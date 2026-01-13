@@ -1,4 +1,4 @@
-# 🎬 Movie Database Manager (CRUD + Filter & Sort)
+# 🎬 Movie Database Manager
 
 This is a single-page application (SPA) built with React and TypeScript, designed to manage a list of movies. It demonstrates core front-end functionalities including Read, Update, and Delete operations, along with filtering and sorting capabilities.
 
